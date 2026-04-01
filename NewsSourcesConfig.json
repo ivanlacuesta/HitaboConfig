@@ -1,0 +1,239 @@
+{
+  "nationalFeeds": [
+    {
+      "name": "Rappler News",
+      "url": "https://www.rappler.com/feed/",
+      "category": "National"
+    },
+    {
+      "name": "Philippine Daily Inquirer",
+      "url": "https://www.inquirer.net/fullfeed",
+      "category": "National"
+    },
+    {
+      "name": "Philippine Daily Inquirer",
+      "url": "https://newsinfo.inquirer.net/feed",
+      "category": "National"
+    },
+    {
+      "name": "GMA News",
+      "url": "https://www.gmanetwork.com/news/feed",
+      "category": "National"
+    },
+    {
+      "name": "ABS-CBN News",
+      "url": "https://news.abs-cbn.com/feed",
+      "category": "National"
+    },
+    {
+      "name": "Manila Times",
+      "url": "https://www.manilatimes.net/news/feed/",
+      "category": "National"
+    }
+  ],
+  "regions": [
+    {
+      "name": "Visayas",
+      "cities": [
+        {
+          "name": "Cebu",
+          "isDefault": true,
+          "filterBy" : [
+              "Cebu"
+          ],
+          "localFeeds": [
+              {
+                "name": "Sunstar",
+                "url": "https://www.sunstar.com.ph/stories.rss",
+                "category": "Local"
+              },
+            {
+              "name": "Cebu Daily News",
+              "url": "https://cebudailynews.inquirer.net/feed",
+              "category": "Local"
+            },
+            {
+              "name": "Philstar Cebu",
+              "url": "https://www.philstar.com/cebu/feed",
+              "category": "Local"
+            },
+            {
+              "name": "The Freeman",
+              "url": "https://www.philstar.com/rss/the-freeman",
+              "category": "Local"
+            }
+          ],
+          "redditFeed": "https://www.reddit.com/r/Cebu/.rss"
+        },
+        {
+          "name": "Iloilo",
+          "isDefault": false,
+          "filterBy" : [
+              "Iloilo"
+          ],
+          "localFeeds": [
+            {
+              "name": "Panay News",
+              "url": "https://www.panaynews.net/category/news/feed/",
+              "category": "Local"
+            },
+            {
+              "name": "Panay News",
+              "url": "https://www.panaynews.net/feed/",
+              "category": "Local"
+            },
+            {
+              "name": "Panay News",
+              "url": "https://www.visayandailystar.com/feed",
+              "category": "Local"
+            },
+            {
+              "name": "Sunstar",
+              "url": "https://www.sunstar.com.ph/stories.rss",
+              "category": "Local"
+            }
+          ]
+        },
+        {
+          "name": "Bacolod",
+          "isDefault": false,
+          "filterBy" : [
+              "Bacolod",
+              "BCD"
+          ],
+          "localFeeds": [
+              {
+                "name": "Panay News",
+                "url": "https://www.panaynews.net/category/news/feed/",
+                "category": "Local"
+              },
+              {
+                "name": "Panay News",
+                "url": "https://www.panaynews.net/feed/",
+                "category": "Local"
+              },
+              {
+                "name": "Panay News",
+                "url": "https://www.visayandailystar.com/feed",
+                "category": "Local"
+              },
+              {
+                "name": "Sunstar",
+                "url": "https://www.sunstar.com.ph/stories.rss",
+                "category": "Local"
+              }
+          ]
+        },
+        {
+          "name": "Tacloban",
+          "isDefault": false,
+          "filterBy": [
+              "Tacloban"
+          ],
+          "localFeeds": [
+            {
+              "name": "Sunstar",
+              "url": "https://www.sunstar.com.ph/stories.rss",
+              "category": "Local"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mindanao",
+      "cities": [
+          {
+            "name": "Cagayan De Oro",
+            "isDefault": false,
+            "filterBy" : [
+                "Cagayan De Oro", "CDO"
+            ],
+            "localFeeds": [
+                {
+                  "name": "Sunstar",
+                  "url": "https://www.sunstar.com.ph/stories.rss",
+                  "category": "Local"
+                }
+            ],
+            "redditFeed": "https://www.reddit.com/r/CagayanDeOro/.rss"
+          },
+        {
+          "name": "Davao",
+          "isDefault": false,
+          "filterBy" : [
+              "Davao"
+          ],
+          "localFeeds": [
+              {
+                "name": "Sunstar",
+                "url": "https://www.sunstar.com.ph/stories.rss",
+                "category": "Local"
+              },
+            {
+              "name": "Davao Today",
+              "url": "https://www.davaotoday.com/feed",
+              "category": "Local"
+            }
+          ],
+          "redditFeed": "https://www.reddit.com/r/Davao/.rss"
+        },
+        {
+          "name": "Zamboanga",
+          "isDefault": false,
+          "filterBy": [
+              "Zamboanga"
+          ],
+          "localFeeds": [
+            {
+              "name": "Sunstar",
+              "url": "https://www.sunstar.com.ph/stories.rss",
+              "category": "Local"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luzon",
+      "cities": [
+        {
+          "name": "Makati",
+          "isDefault": false,
+          "filterBy" : [
+              "Makati"
+          ],
+          "localFeeds": [
+            {
+              "name": "Manila Bulletin",
+              "url": "https://www.mb.com.ph/feed",
+              "category": "Local"
+            },
+            {
+              "name": "Philippine Star",
+              "url": "https://www.philstar.com/feed",
+              "category": "Local"
+            }
+          ]
+        },
+        {
+          "name": "Pampanga",
+          "isDefault": false,
+          "filterBy": [
+              "Pampanga"
+          ],
+          "localFeeds": [
+            {
+              "name": "Sunstar",
+              "url": "https://www.sunstar.com.ph/stories.rss",
+              "category": "Local"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "googleFeed": {
+        "url": "https://news.google.com/rss/search?q=<city>&hl=en-PH&gl=PH&ceid=PH:en"
+   }
+}
