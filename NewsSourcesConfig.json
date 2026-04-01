@@ -137,6 +137,20 @@
               "category": "Local"
             }
           ]
+        },
+        {
+          "name": "Samar",
+          "isDefault": false,
+          "filterBy": [
+              "Samar"
+          ],
+          "localFeeds": [
+            {
+              "name": "Sunstar",
+              "url": "https://www.sunstar.com.ph/stories.rss",
+              "category": "Local"
+            }
+          ]
         }
       ]
     },
