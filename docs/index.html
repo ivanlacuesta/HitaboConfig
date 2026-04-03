@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hitabo | Hyperlocal Philippines News</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface": "#111817",
+                        "inverse-surface": "#1c1f22",
+                        "background": "#f7f7f8",
+                        "on-primary-fixed-variant": "#005048",
+                        "surface-container-highest": "#dee4e1",
+                        "surface-container": "#eff5f2",
+                        "surface-container-low": "#f7f7f8",
+                        "outline": "#6d7a77",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#e9efed",
+                        "primary": "#12a192",
+                        "inverse-primary": "#63d9c9",
+                        "on-secondary": "#111817",
+                        "tertiary-container": "#ffdad6",
+                        "secondary": "#f2d01c",
+                        "surface-bright": "#ffffff",
+                        "tertiary-fixed": "#ffdbcf",
+                        "tertiary": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#380c00",
+                        "on-surface-variant": "#3d4947",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#f7f7f8",
+                        "primary-container": "#008376",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#254e47",
+                        "on-secondary-container": "#416a63",
+                        "on-background": "#111817",
+                        "on-tertiary-fixed-variant": "#793014",
+                        "outline-variant": "#bcc9c6",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#a4cfc7",
+                        "tertiary-fixed-dim": "#ffb59c",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#dee4e1",
+                        "primary-fixed-dim": "#63d9c9",
+                        "primary-fixed": "#81f6e5",
+                        "on-primary-container": "#f4fffb",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed": "#00201c",
+                        "surface": "#f7f7f8",
+                        "surface-dim": "#d6dbd9",
+                        "secondary-fixed": "#c0ebe3",
+                        "secondary-container": "#bde9e0",
+                        "surface-tint": "#12a192",
+                        "on-tertiary-container": "#93000a",
+                        "on-secondary-fixed": "#00201c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Space Grotesk"],
+                        "label": ["Space Grotesk"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Space Grotesk', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .ph-ribbon {
+            background: linear-gradient(to bottom, #0038a8 33%, #ffffff 33% 66%, #ce1126 66%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 shadow-sm font-['Space_Grotesk'] antialiased">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<div class="relative w-10 h-10 flex items-center justify-center bg-primary rounded-lg overflow-hidden">
+<span class="text-white font-extrabold text-2xl z-10">H</span>
+<div class="absolute inset-0 opacity-40 ph-ribbon"></div>
+</div>
+<span class="text-2xl font-bold tracking-tighter text-teal-600 dark:text-teal-400">Hitabo</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-teal-600 dark:text-teal-400 font-semibold border-b-2 border-teal-600 transition-opacity duration-200" href="#">Features</a>
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-teal-500 transition-opacity duration-200" href="#">Mapping</a>
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-teal-500 transition-opacity duration-200" href="#">Social</a>
+</div>
+<button class="bg-primary hover:opacity-80 transition-opacity duration-200 text-white px-6 py-2 rounded-full font-semibold active:scale-95 transition-transform">
+                Download
+            </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative overflow-hidden px-6 lg:px-12 py-16 max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-bold mb-6">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">stars</span>
+                        HYPERLOCAL IS HERE
+                    </div>
+<h1 class="text-5xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                        Know your <span class="text-primary">Barangay.</span><br/>Feel the Vibe.
+                    </h1>
+<p class="text-lg text-on-surface-variant mb-10 max-w-lg leading-relaxed">
+                        Stay connected with what's happening right outside your doorstep. From local festivities to real-time traffic updates, Hitabo brings the pulse of the Philippines to your pocket.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<div class="h-12 w-40 bg-on-surface flex items-center justify-center rounded-lg cursor-pointer hover:opacity-90 transition-all">
+<img alt="App Store" class="h-8" data-alt="Official Apple App Store download badge with black background and white logo text" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRvuzuU5EZhlQQM-Q5TsL2iCJPPpqNfbFYpz3IcPaGR_JW1SKyCMVYHJNIs-ER8rVGxdJ9fOco12xrVIVCDKzmRVO3y6zt32Lk1eKkotSGS_7aLPfE0Tf2OBXbdvCbCEA8eB5v1_QxtYoX42TuEB73vZgdG70XP8O08wWZSbkc_769SN4ukwfSVMk9sWY7yZ_NWsTX2i42ut40o64joNrqzwMBwBil0vCeErYraJ8uheE_ued7kmXfWPlZnGscXmLE33SS5PM86-g"/>
+</div>
+<div class="h-12 w-40 bg-on-surface flex items-center justify-center rounded-lg cursor-pointer hover:opacity-90 transition-all">
+<img alt="Google Play" class="h-8" data-alt="Official Google Play Store download badge with black background and colorful play icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuGlC1jYj8OmzLVcpVizebXw4yzzdGllWQ0loFuY-hBUZ0Vy5K5U5hsxszTLJO4ExXWbxniQoVqpkM5W1_mO_gHpN8QNL-8v60Di_dx2zDfdJx0EIQ4owH7HgnZnya8W4duXFQNszgAFEfUtEQ-yVsQNpTVFCszpZaMc3ZbQ1y77rUQspD7haEunV9vL4-qHaZj8ac_hju8MAmvgYgQIG7D5ZB9h600InbraFpCa0k5rbJ8rdb7wzu5yvt0vqtz7senaly2-pEyIA"/>
+</div>
+</div>
+</div>
+<div class="relative flex justify-center">
+<!-- iPhone Mockup Shell -->
+<div class="relative w-[300px] h-[600px] bg-zinc-900 rounded-[3rem] p-3 shadow-2xl border-[8px] border-zinc-800">
+<div class="w-full h-full rounded-[2rem] overflow-hidden bg-white relative">
+<!-- Dynamic App Content -->
+<img class="w-full h-full object-cover" data-alt="Smartphone screen showing a vibrant mobile app news feed with Filipino headlines, colorful status tags, and high-quality local photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCggYPvVtt8wcLsJikSDBShWslxKRSFD7gmyAR4_mJOujpALs8_YcBHPRLA4XRNdDKqOKK9vwxh7MDk3XwRk0g9K8CPZN-umFaLIKAMlMRm5MxMSsG1LykC0RDzRTpoRm0pZ9jtdEKClKiDQiStpLRtgiLEYVfPq57bqnZLvIy2m-2vunQr8_0ivnaBVMye8Dnnf9tIuSny_rV2tuEZTFvoC3d5TikrvxfKcktnT2EVRI70LC_o2nLdbJVVKkDVI0m4e9R8O6fc9E"/>
+<div class="absolute top-0 w-full p-4 bg-gradient-to-b from-white to-transparent">
+<div class="flex justify-between items-center">
+<span class="font-bold text-teal-600">Hitabo</span>
+<span class="material-symbols-outlined text-zinc-400">notifications</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative background elements -->
+<div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[100px]"></div>
+<div class="absolute -z-10 top-0 right-0 w-[300px] h-[300px] bg-secondary/20 rounded-full blur-[80px]"></div>
+</div>
+</div>
+</section>
+<!-- Bento Grid Features -->
+<section class="px-6 lg:px-12 py-24 max-w-7xl mx-auto">
+<h2 class="text-3xl lg:text-5xl font-bold mb-12 text-center">New Gen News for <span class="text-primary">Juan.</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Hyperlocal Mapping -->
+<div class="md:col-span-2 bg-surface-container-high rounded-3xl overflow-hidden group">
+<div class="p-8 h-full flex flex-col">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined p-2 bg-primary text-white rounded-xl">map</span>
+<h3 class="text-2xl font-bold">Hyperlocal Mapping</h3>
+</div>
+<p class="text-on-surface-variant mb-8 max-w-md leading-relaxed">
+                            Navigate through news geographically. See exactly what's happening in your specific block, street, or barangay with our interactive heat-maps.
+                        </p>
+<div class="mt-auto rounded-2xl overflow-hidden border border-outline-variant h-64 shadow-inner">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="High-contrast aerial map of a dense urban neighborhood in Manila with vibrant teal and yellow data visualization overlays" data-location="Manila, Philippines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj57bxIjq3XN2oBN4Z4UE8FrvIqooIXGBRI_iLxR98NQYV9OWnuvK9OJHyH0IkWHf19J0Z7win4GtoUIH8KCxFFzM7E65dWjcU4Zprg7tngQOgiuYdiqwfLVatf2sKQEAxLZfJ2EbTpnmaSgNQJ5wjSLngB2gL_M_FAlO2EY4YK1hegTaYfipArHwc7bVh2sUwTf8mR9kp4uvv4ATG67YqRuQN_uK_iD-bRpGWRCsZ1nDjChwqf3LjDX5UV-9C9ZqY_LJT4rEzBcU"/>
+</div>
+</div>
+</div>
+<!-- Social Media Updates -->
+<div class="bg-surface-container p-8 rounded-3xl border border-outline-variant">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">trending_up</span>
+<h3 class="text-2xl font-bold mb-4">Social Media Updates</h3>
+<p class="text-on-surface-variant mb-6 leading-relaxed">
+                        Stay in the loop with real-time conversations. See what's trending across your neighborhood social networks.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-4 py-2 bg-blue-500/10 text-blue-600 font-bold rounded-full border border-blue-500/20">#TrendingNow</span>
+<span class="px-4 py-2 bg-primary/10 text-primary font-bold rounded-full border border-primary/20">#LocalVibe</span>
+<span class="px-4 py-2 bg-secondary/20 text-on-secondary font-bold rounded-full border border-secondary/30">#HitaboUpdates</span>
+<span class="px-4 py-2 bg-surface-container-highest text-on-surface font-bold rounded-full">#ManilaLife</span>
+<span class="px-4 py-2 bg-surface-container-highest text-on-surface font-bold rounded-full">#CommuterDiaries</span>
+</div>
+</div>
+<!-- Why Hitabo -->
+<div class="md:col-span-3 bg-on-surface text-surface rounded-3xl p-10 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<h3 class="text-3xl font-bold mb-6">Why <span class="text-primary">Hitabo</span>?</h3>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">verified</span>
+<p><span class="font-bold">Verified by Locals:</span> Say goodbye to fake news with our multi-step local verification process.</p>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">bolt</span>
+<p><span class="font-bold">Speed of Culture:</span> We move as fast as the news travels on the streets.</p>
+</div>
+</div>
+</div>
+<div class="w-full md:w-64 h-48 rounded-2xl overflow-hidden relative">
+<img class="w-full h-full object-cover opacity-60" data-alt="Dynamic portrait of a diverse group of young Filipino students in a modern urban setting, smiling and engaging with their phones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGVavos8RZw_r0c-JvLt3-vQqsnQwTz5lIwMgiS-f5saT1z-PU9Rl64ZOd6KqX-YjjvQZ4QbVgVlUWupLtV7sDWd42j1Sj77CK7avMkKum_5996ePXmSB8Cv-oPNpT2t2L5HYi1Vt6jAwb3ZEBCfKZUjZi0PyiAKlytzwhI2Z2KXN-AdbQOZTkb1PkfFSamg1y40vcF3Ab7zY78Un2tgej6gw8yqhA9JRr4TnLxrLah-jG8-JIjeG-jIqhUvSmT9fZ2ZMRRvLRaGg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community Quote -->
+<!-- Call to Action -->
+<section class="py-24 px-6 max-w-7xl mx-auto">
+<div class="relative bg-primary rounded-[3rem] p-12 lg:p-20 overflow-hidden text-white text-center">
+<div class="relative z-10 max-w-2xl mx-auto">
+<h2 class="text-4xl lg:text-6xl font-bold mb-8">Ready to join the vibe?</h2>
+<p class="text-xl opacity-90 mb-12">Download Hitabo today and never miss a beat in your community again.</p>
+<div class="flex flex-wrap justify-center gap-6">
+<button class="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-zinc-100 transition-all active:scale-95">Get Started for Free</button>
+</div>
+</div>
+<!-- Abstract blobs -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-secondary/30 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
+<div class="absolute bottom-0 left-0 w-80 h-80 bg-on-primary-fixed-variant rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2"></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-zinc-50 dark:bg-zinc-950 border-t border-zinc-200 dark:border-zinc-800 font-['Space_Grotesk'] text-sm">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="flex items-center gap-2 mb-4">
+<div class="relative w-8 h-8 flex items-center justify-center bg-zinc-900 rounded-md overflow-hidden">
+<span class="text-white font-bold text-lg z-10">H</span>
+<div class="absolute inset-0 opacity-30 ph-ribbon"></div>
+</div>
+<span class="text-xl font-bold text-zinc-900 dark:text-zinc-100">Hitabo</span>
+</div>
+<p class="text-zinc-500 max-w-xs">© 2024 Hitabo Hyperlocal. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-teal-500 transition-colors focus:ring-2 focus:ring-teal-500" href="#">Privacy Policy</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-teal-500 transition-colors focus:ring-2 focus:ring-teal-500" href="#">Terms of Service</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-teal-500 transition-colors focus:ring-2 focus:ring-teal-500" href="#">Contact</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-teal-500 transition-colors focus:ring-2 focus:ring-teal-500" href="#">Twitter</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-teal-500 transition-colors focus:ring-2 focus:ring-teal-500" href="#">Instagram</a>
+</div>
+</div>
+</footer>
+</body></html>
